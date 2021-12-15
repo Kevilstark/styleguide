@@ -169,9 +169,6 @@ li {
     list-style-type: none;
 }
 
-#bread-crumb {
-    position: relative;
-}
 
 main {
     display:flex;
