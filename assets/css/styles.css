@@ -1,0 +1,203 @@
+a {
+    text-decoration: none;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 70px;
+    margin-left: 15%;
+}
+
+#logo {
+    width: 200px;
+}
+h1 {
+    font-size: 45px;
+    font-family: "Raleway";
+    font-weight: bold;
+    line-height: 0.444;
+}
+h2 {
+    font-family: Raleway; 
+    font-size: 30px; 
+    font-weight: 600;
+}
+h3 {
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    line-height: 1.429;
+}
+#style-guide {
+    left: 15%;
+    top: 20%;
+    position: absolute;
+}
+#h3 {
+    display: flex;
+} 
+#menu-bar {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+#right-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    padding: 5px;
+}
+#user-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    height: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+#side-bar {
+    width: 35%;
+}
+#user-bar > div {
+    width: 33%;
+    float: right;
+}
+#cart-icon {
+    position: relative;
+}
+#nav-bar > div {
+    pading: 5px;
+}
+#menu-bar > div{
+    width: 30%;
+    text-align: left;
+    height: 60px;
+}
+#home > a, #shop > a, #page > a, #blog > a {
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 3.529;
+}
+#side-nav {
+    width: 60px;
+    height: 60px;
+}
+
+#side-menu {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+}
+
+
+#user-bar > div:hover, #home > a:hover, #shop > a:hover, #page > a:hover, #blog > a:hover, .dropdown:hover {
+    transform: scale(1.2); 
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 3.529;
+    padding:10px;
+    width: 100px;
+}
+
+#notif {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: brown;
+    text-decoration: none;
+    text-align: center;
+    top: 0;
+    left: 70%;
+
+}
+#new {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    border-radius: 30%;
+    background-color: brown;
+    text-decoration: none;
+    text-align: center;
+}
+
+.num {
+    font-size: 11px;
+    color: rgb(248, 244, 244);
+}
+
+.dropdown-content a:hover {
+    background-color: brown;
+}
+
+.dropdown {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+#bread-crumb {
+    position: relative;
+}
+
+main {
+    display:flex;
+    width: 70%;
+    margin-left: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#left {
+}
+
+
+@media screen and (max-width: 1000px) {
+    #nav-bar {
+        margin-left: 0;
+        width:100%;
+    }
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+}
